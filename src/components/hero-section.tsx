@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 
 export default function HeroSection() {
   const [text, setText] = useState("")
-  const fullText = "Analyzing markets, building models, and driving insights in the world of finance."
+  const fullText = "Analyzing markets and driving insights in the world of finance."
 
   useEffect(() => {
     let index = 0
@@ -84,7 +84,7 @@ export default function HeroSection() {
               </motion.a>
               <motion.a
                 whileHover={{ scale: 1.2, rotate: 5 }}
-                href="khandzodekrunal13@gmail.com"
+                href="mailTo:khandzodekrunal13@gmail.com"
                 className="p-3 bg-gray-800 rounded-full hover:bg-gray-700 transition-colors duration-200"
               >
                 <Mail className="h-6 w-6" />
