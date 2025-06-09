@@ -1,8 +1,7 @@
 import { motion } from "framer-motion"
 import { useInView } from "framer-motion"
 import { useRef } from "react"
-import { ExternalLink, Github, TrendingUp, Leaf, BarChart3 } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { ExternalLink, TrendingUp, Leaf, BarChart3 } from "lucide-react"
 
 export default function ProjectsSection() {
   const ref = useRef(null)
@@ -173,7 +172,7 @@ export default function ProjectsSection() {
         >
           <h3 className="text-2xl font-semibold mb-8 text-white text-center">Additional Experience</h3>
           <div className="grid md:grid-cols-1 gap-6">
-            {extras.map((extra, index) => (
+            {extras.map((extra) => (
               <div
                 key={extra.title}
                 className="bg-gray-900/50 backdrop-blur-sm rounded-xl p-6 border border-gray-800 hover:border-gray-600 transition-all duration-300"

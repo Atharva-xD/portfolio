@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { motion } from "framer-motion"
-import { ChevronDown, Download, Github, Linkedin, Mail } from "lucide-react"
+import { ChevronDown, Download, Linkedin, Mail } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export default function HeroSection() {
